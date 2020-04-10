@@ -15,6 +15,7 @@ img {
 
 .dogone {
     border: 10px dashed orangered;
+    /*boder defined in class overwrites the border in img tag*/
 }
 
 .dogtwo {
