@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+}
+
+#emph {
+    color: blue;
+    /*this will show*/
+}
+
+.cowboy {
+    color: green;
+}
+
+.emphasize {
+    color: yellow;
+}

@@ -1,0 +1,9 @@
+a {
+    font-size: 200px;
+}
+
+a:focus {
+    color: red;
+}
+/*we can use active instead of focus here*/
+/*traditionally, focus is used for forms, active is for links*/

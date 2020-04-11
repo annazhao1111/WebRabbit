@@ -9,6 +9,9 @@ div {
 img {
     width: 200px;
     box-sizing: border-box;
+    /*all img is constraint to 200px wide with box-sizing: border-box */
+    /*now the img itself + padding + border = 200px */
+    /*so it shrinks the content */
     border: 10px groove orangered;
     padding: 20px;
 }

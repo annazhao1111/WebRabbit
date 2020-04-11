@@ -1,0 +1,6 @@
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 4vw;
+    /*if we want the font size changes when page size changes, use vw*/
+    /*99% we would better to use rem*/
+}

@@ -1,0 +1,14 @@
+body {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+div p {
+    color: red;
+}
+/*it applies to any p tag inside a div*/
+
+/*div > p: all p tags immediately beneath a div */
+/*div ~ p: all p tags that are a sibling following a div */
+/*div + p: all p tags that are an immediate sibling following a div */

@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    border: 1px solid black;
+    font-style: italic;
+}
+
+/*#emph {*/
+    /*color: blue;*/
+/*}*/
+
+.cowboy {
+    color: green;
+}
+
+.emphasize {
+    color: yellow;
+    /*this will show*/
+    /*emphasize and cowboy have same specifity, but emphasize comes last*/
+}

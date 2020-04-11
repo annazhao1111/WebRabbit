@@ -1,0 +1,5 @@
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    /*rem is the relative default font size of user's computer*/
+}
