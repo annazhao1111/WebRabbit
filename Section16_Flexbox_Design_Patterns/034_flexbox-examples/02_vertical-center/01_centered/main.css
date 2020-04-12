@@ -1,0 +1,22 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*reset everything first, remove any default space*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*it's going to take the entire view port*/
+
+    /* formatting */
+    border: 10px solid red;
+}
+
+p {
+    font-size: 4rem;
+}

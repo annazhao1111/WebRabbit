@@ -1,0 +1,23 @@
+div {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+header {
+    display: flex;
+    /*header is a flex container now, and its 2 immediate
+    children which are the 2 divs become flex items*/
+    /*this will put 2 divs from 2 rows into 1 row,
+    and stick to each other*/
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*these 2 are default settings for flex*/
+
+    justify-content: space-between;
+    /*these 2 divs are separated to 2 sides of the row*/
+
+    border: 1px solid red;
+}

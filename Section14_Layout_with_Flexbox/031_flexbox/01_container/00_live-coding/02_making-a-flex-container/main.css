@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+body {
+    display: flex;
+    /*it puts all divs into 1 row*/
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*default is nowrap*/
+}

@@ -1,0 +1,10 @@
+h1 {
+    color: red;
+}
+
+@media (min-width: 900px) {
+    h1 {
+        color: blue;
+    }
+}
+/*this is the second way of using media query, but it's better to link with separate css files in html*/

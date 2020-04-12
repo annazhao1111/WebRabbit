@@ -1,0 +1,17 @@
+div, img {
+    border: 2px solid red;
+    margin: 20px;
+}
+
+div {
+    overflow: auto;
+    /*if the pic inside div is bigger, then use "overflow:auto" to adjust the size of div */
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
