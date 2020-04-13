@@ -1,0 +1,35 @@
+html, body, svg {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#amaze {
+    width: 800px;
+    height: 800px;
+    border: 20px groove gold;
+    padding: 50px;
+}
+
+#icon {
+    stroke: black;
+    stroke-width: 40px;
+    fill: red;
+
+    width: 100%;
+    height: 100%;
+    /*some browers need to add these 2 lines to make it work*/
+}
+
+#icon:hover {
+    stroke: blue;
+    fill: yellow;
+}
